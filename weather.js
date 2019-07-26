@@ -1,4 +1,3 @@
-
 const fetch = require("node-fetch")
 
 const api_url = "http://api.apixu.com/v1/current.json?key=04a82262d4ad4a1c946213151191907&q="
