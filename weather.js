@@ -17,13 +17,14 @@ let argsv = []
 console.log(args)
 
 for(let i = 0; i < args.length; i++){
-
     if(i < args.length && args[i][args[i].length-1] != ","){
       args[i] += "%20"
     }
     argsv += args[i]
 }
-console.log(argsv)
+
+args = argsv.split(",")
+console.log(args)
 async function main(){
   for(let i = 0; i < args.length; i++){
     //console.log(args)\
