@@ -1,5 +1,5 @@
 # invtech
-Weather Getter for Job Application
+Weather Getter
 
 # Methods of use
 
